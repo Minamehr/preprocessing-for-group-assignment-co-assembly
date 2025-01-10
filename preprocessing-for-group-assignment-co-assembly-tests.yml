@@ -1,0 +1,121 @@
+- doc: Test outline for preprocessing-for-group-assignment-co-assembly
+  job:
+    metadata:
+      class: File
+      path: test-data/metadata.tabular
+      filetype: tabular
+    Trimmed paired reads:
+      class: Collection
+      collection_type: list:paired
+      elements:
+      - class: Collection
+        type: paired
+        identifier: IBSD01_test.fastq
+        elements:
+        - class: File
+          identifier: forward
+          path: test-data/Trimmed paired reads_forward.fastqsanger
+        - class: File
+          identifier: reverse
+          path: test-data/Trimmed paired reads_reverse.fastqsanger
+      - class: Collection
+        type: paired
+        identifier: IBSD02_test.fastq
+        elements:
+        - class: File
+          identifier: forward
+          path: test-data/Trimmed paired reads_forward.fastqsanger
+        - class: File
+          identifier: reverse
+          path: test-data/Trimmed paired reads_reverse.fastqsanger
+      - class: Collection
+        type: paired
+        identifier: IBSD03_test.fastq
+        elements:
+        - class: File
+          identifier: forward
+          path: test-data/Trimmed paired reads_forward.fastqsanger
+        - class: File
+          identifier: reverse
+          path: test-data/Trimmed paired reads_reverse.fastqsanger
+      - class: Collection
+        type: paired
+        identifier: IBSD04_test.fastq
+        elements:
+        - class: File
+          identifier: forward
+          path: test-data/Trimmed paired reads_forward.fastqsanger
+        - class: File
+          identifier: reverse
+          path: test-data/Trimmed paired reads_reverse.fastqsanger
+      - class: Collection
+        type: paired
+        identifier: IBSD05_test.fastq
+        elements:
+        - class: File
+          identifier: forward
+          path: test-data/Trimmed paired reads_forward.fastqsanger
+        - class: File
+          identifier: reverse
+          path: test-data/Trimmed paired reads_reverse.fastqsanger
+      - class: Collection
+        type: paired
+        identifier: IBSD06_test.fastq
+        elements:
+        - class: File
+          identifier: forward
+          path: test-data/Trimmed paired reads_forward.fastqsanger
+        - class: File
+          identifier: reverse
+          path: test-data/Trimmed paired reads_reverse.fastqsanger
+      - class: Collection
+        type: paired
+        identifier: IBSD07_test.fastq
+        elements:
+        - class: File
+          identifier: forward
+          path: test-data/Trimmed paired reads_forward.fastqsanger
+        - class: File
+          identifier: reverse
+          path: test-data/Trimmed paired reads_reverse.fastqsanger
+      - class: Collection
+        type: paired
+        identifier: IBSD08_test.fastq
+        elements:
+        - class: File
+          identifier: forward
+          path: test-data/Trimmed paired reads_forward.fastqsanger
+        - class: File
+          identifier: reverse
+          path: test-data/Trimmed paired reads_reverse.fastqsanger
+      - class: Collection
+        type: paired
+        identifier: IBSD09_test.fastq
+        elements:
+        - class: File
+          identifier: forward
+          path: test-data/Trimmed paired reads_forward.fastqsanger
+        - class: File
+          identifier: reverse
+          path: test-data/Trimmed paired reads_reverse.fastqsanger
+  outputs:
+    paired_output:
+      element_tests:
+        group:1:
+          elements:
+            forward:
+              path: test-data/group1-collection_forward.fastqsanger
+            reverse:
+              path: test-data/group1-collection_reverse.fastqsanger
+        group:2:
+          elements:
+            forward:
+              path: test-data/group2-collection_forward.fastqsanger
+            reverse:
+              path: test-data/group2-collection_reverse.fastqsanger
+        group:3:
+          elements:
+            forward:
+              path: test-data/group3-collection_forward.fastqsanger
+            reverse:
+              path: test-data/group3-collection_reverse.fastqsanger

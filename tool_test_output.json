@@ -1,0 +1,1994 @@
+{
+    "summary": {
+        "num_errors": 0,
+        "num_failures": 0,
+        "num_skips": 0,
+        "num_tests": 1
+    },
+    "tests": [
+        {
+            "data": {
+                "end_datetime": "2024-11-21T18:26:14.675803",
+                "inputs": {
+                    "Trimmed paired reads": {
+                        "class": "Collection",
+                        "collection_type": "list:paired",
+                        "elements": [
+                            {
+                                "class": "Collection",
+                                "elements": [
+                                    {
+                                        "class": "File",
+                                        "identifier": "forward",
+                                        "path": "test-data/Trimmed paired reads_forward.fastqsanger"
+                                    },
+                                    {
+                                        "class": "File",
+                                        "identifier": "reverse",
+                                        "path": "test-data/Trimmed paired reads_reverse.fastqsanger"
+                                    }
+                                ],
+                                "identifier": "IBSD01_test.fastq",
+                                "type": "paired"
+                            },
+                            {
+                                "class": "Collection",
+                                "elements": [
+                                    {
+                                        "class": "File",
+                                        "identifier": "forward",
+                                        "path": "test-data/Trimmed paired reads_forward.fastqsanger"
+                                    },
+                                    {
+                                        "class": "File",
+                                        "identifier": "reverse",
+                                        "path": "test-data/Trimmed paired reads_reverse.fastqsanger"
+                                    }
+                                ],
+                                "identifier": "IBSD02_test.fastq",
+                                "type": "paired"
+                            },
+                            {
+                                "class": "Collection",
+                                "elements": [
+                                    {
+                                        "class": "File",
+                                        "identifier": "forward",
+                                        "path": "test-data/Trimmed paired reads_forward.fastqsanger"
+                                    },
+                                    {
+                                        "class": "File",
+                                        "identifier": "reverse",
+                                        "path": "test-data/Trimmed paired reads_reverse.fastqsanger"
+                                    }
+                                ],
+                                "identifier": "IBSD03_test.fastq",
+                                "type": "paired"
+                            },
+                            {
+                                "class": "Collection",
+                                "elements": [
+                                    {
+                                        "class": "File",
+                                        "identifier": "forward",
+                                        "path": "test-data/Trimmed paired reads_forward.fastqsanger"
+                                    },
+                                    {
+                                        "class": "File",
+                                        "identifier": "reverse",
+                                        "path": "test-data/Trimmed paired reads_reverse.fastqsanger"
+                                    }
+                                ],
+                                "identifier": "IBSD04_test.fastq",
+                                "type": "paired"
+                            },
+                            {
+                                "class": "Collection",
+                                "elements": [
+                                    {
+                                        "class": "File",
+                                        "identifier": "forward",
+                                        "path": "test-data/Trimmed paired reads_forward.fastqsanger"
+                                    },
+                                    {
+                                        "class": "File",
+                                        "identifier": "reverse",
+                                        "path": "test-data/Trimmed paired reads_reverse.fastqsanger"
+                                    }
+                                ],
+                                "identifier": "IBSD05_test.fastq",
+                                "type": "paired"
+                            },
+                            {
+                                "class": "Collection",
+                                "elements": [
+                                    {
+                                        "class": "File",
+                                        "identifier": "forward",
+                                        "path": "test-data/Trimmed paired reads_forward.fastqsanger"
+                                    },
+                                    {
+                                        "class": "File",
+                                        "identifier": "reverse",
+                                        "path": "test-data/Trimmed paired reads_reverse.fastqsanger"
+                                    }
+                                ],
+                                "identifier": "IBSD06_test.fastq",
+                                "type": "paired"
+                            },
+                            {
+                                "class": "Collection",
+                                "elements": [
+                                    {
+                                        "class": "File",
+                                        "identifier": "forward",
+                                        "path": "test-data/Trimmed paired reads_forward.fastqsanger"
+                                    },
+                                    {
+                                        "class": "File",
+                                        "identifier": "reverse",
+                                        "path": "test-data/Trimmed paired reads_reverse.fastqsanger"
+                                    }
+                                ],
+                                "identifier": "IBSD07_test.fastq",
+                                "type": "paired"
+                            },
+                            {
+                                "class": "Collection",
+                                "elements": [
+                                    {
+                                        "class": "File",
+                                        "identifier": "forward",
+                                        "path": "test-data/Trimmed paired reads_forward.fastqsanger"
+                                    },
+                                    {
+                                        "class": "File",
+                                        "identifier": "reverse",
+                                        "path": "test-data/Trimmed paired reads_reverse.fastqsanger"
+                                    }
+                                ],
+                                "identifier": "IBSD08_test.fastq",
+                                "type": "paired"
+                            },
+                            {
+                                "class": "Collection",
+                                "elements": [
+                                    {
+                                        "class": "File",
+                                        "identifier": "forward",
+                                        "path": "test-data/Trimmed paired reads_forward.fastqsanger"
+                                    },
+                                    {
+                                        "class": "File",
+                                        "identifier": "reverse",
+                                        "path": "test-data/Trimmed paired reads_reverse.fastqsanger"
+                                    }
+                                ],
+                                "identifier": "IBSD09_test.fastq",
+                                "type": "paired"
+                            }
+                        ]
+                    },
+                    "metadata": {
+                        "class": "File",
+                        "filetype": "tabular",
+                        "path": "test-data/metadata.tabular"
+                    }
+                },
+                "invocation_details": {
+                    "details": {
+                        "error_message": "",
+                        "history_id": "1d9d5e636bb3ff26",
+                        "history_state": "ok",
+                        "invocation_id": "41370bf4adf37e44",
+                        "invocation_state": "scheduled",
+                        "messages": [],
+                        "workflow_id": "449212a138cb61e9"
+                    },
+                    "steps": {
+                        "0. Trimmed paired reads": {
+                            "action": null,
+                            "id": "13a52c53eec4da91",
+                            "implicit_collection_jobs_id": null,
+                            "job_id": null,
+                            "jobs": [],
+                            "model_class": "WorkflowInvocationStep",
+                            "order_index": 0,
+                            "output_collections": {
+                                "output": {
+                                    "id": "b03ca9f9d0c20037",
+                                    "src": "hdca"
+                                }
+                            },
+                            "outputs": {},
+                            "state": "scheduled",
+                            "subworkflow": null,
+                            "subworkflow_invocation_id": null,
+                            "update_time": "2024-11-21T17:25:12.753857",
+                            "workflow_step_id": "b3456faf2bae8086",
+                            "workflow_step_label": "Trimmed paired reads",
+                            "workflow_step_uuid": "fa9d56af-8107-4bed-a613-d0e455b90718"
+                        },
+                        "1. metadata": {
+                            "action": null,
+                            "id": "258424443dcecfd3",
+                            "implicit_collection_jobs_id": null,
+                            "job_id": null,
+                            "jobs": [],
+                            "model_class": "WorkflowInvocationStep",
+                            "order_index": 1,
+                            "output_collections": {},
+                            "outputs": {
+                                "output": {
+                                    "id": "4838ba20a6d8676532344e535b24e029",
+                                    "src": "hda",
+                                    "uuid": "57f7a6a8-c25f-4c8c-a72b-8e88feb5f314"
+                                }
+                            },
+                            "state": "scheduled",
+                            "subworkflow": null,
+                            "subworkflow_invocation_id": null,
+                            "update_time": "2024-11-21T17:25:12.753859",
+                            "workflow_step_id": "9e13ba85cae51589",
+                            "workflow_step_label": "metadata",
+                            "workflow_step_uuid": "ab171f10-2b60-4268-b88a-c61d5c2ba278"
+                        },
+                        "2. Unnamed step": {
+                            "action": null,
+                            "id": "cba555df043c2bb6",
+                            "implicit_collection_jobs_id": null,
+                            "job_id": null,
+                            "jobs": [
+                                {
+                                    "command_line": null,
+                                    "command_version": null,
+                                    "copied_from_job_id": null,
+                                    "create_time": "2024-11-21T17:25:13.417703",
+                                    "dependencies": [],
+                                    "exit_code": null,
+                                    "external_id": null,
+                                    "galaxy_version": "24.1",
+                                    "handler": null,
+                                    "history_id": "1d9d5e636bb3ff26",
+                                    "id": "11ac94870d0bb33a995572b0c619f12e",
+                                    "inputs": {
+                                        "input1": {
+                                            "id": "4838ba20a6d8676574078d617b7c3282",
+                                            "src": "hda",
+                                            "uuid": "4992bbff-70e2-4e88-b4c4-f4346dbbf201"
+                                        },
+                                        "input2": {
+                                            "id": "4838ba20a6d86765b4bac2ae9286990d",
+                                            "src": "hda",
+                                            "uuid": "62bffce0-45fe-46c4-ae98-906277198e45"
+                                        }
+                                    },
+                                    "job_messages": null,
+                                    "job_metrics": null,
+                                    "job_runner_name": null,
+                                    "job_stderr": null,
+                                    "job_stdout": null,
+                                    "model_class": "Job",
+                                    "output_collections": {
+                                        "forward": {
+                                            "id": "7c05dfc1cbaf46d1",
+                                            "src": "hdca"
+                                        },
+                                        "reverse": {
+                                            "id": "3dfcd152be72a1c7",
+                                            "src": "hdca"
+                                        }
+                                    },
+                                    "outputs": {
+                                        "forward": {
+                                            "id": "4838ba20a6d867656354d72c9d15bfd6",
+                                            "src": "hda",
+                                            "uuid": "4992bbff-70e2-4e88-b4c4-f4346dbbf201"
+                                        },
+                                        "reverse": {
+                                            "id": "4838ba20a6d86765fecb052409e8fa2d",
+                                            "src": "hda",
+                                            "uuid": "62bffce0-45fe-46c4-ae98-906277198e45"
+                                        }
+                                    },
+                                    "params": {
+                                        "__workflow_invocation_uuid__": "\"7edfda5aa82d11efadb6001e67d2ec02\"",
+                                        "input": "{\"values\": [{\"id\": 134762351, \"src\": \"dce\"}]}"
+                                    },
+                                    "state": "ok",
+                                    "stderr": "",
+                                    "stdout": "",
+                                    "tool_id": "__UNZIP_COLLECTION__",
+                                    "tool_stderr": null,
+                                    "tool_stdout": null,
+                                    "update_time": "2024-11-21T17:25:13.492201",
+                                    "user_email": null
+                                },
+                                {
+                                    "command_line": null,
+                                    "command_version": null,
+                                    "copied_from_job_id": null,
+                                    "create_time": "2024-11-21T17:25:13.417707",
+                                    "dependencies": [],
+                                    "exit_code": null,
+                                    "external_id": null,
+                                    "galaxy_version": "24.1",
+                                    "handler": null,
+                                    "history_id": "1d9d5e636bb3ff26",
+                                    "id": "11ac94870d0bb33ad64fce7bfbb2ea93",
+                                    "inputs": {
+                                        "input1": {
+                                            "id": "4838ba20a6d8676574f1ebf5cc73a6d7",
+                                            "src": "hda",
+                                            "uuid": "cf760f35-07bf-4d60-9b76-add9ebf9adb7"
+                                        },
+                                        "input2": {
+                                            "id": "4838ba20a6d86765f53e10d8c260e01a",
+                                            "src": "hda",
+                                            "uuid": "73b9e973-c378-4c0d-8c2b-ecc2daad01e3"
+                                        }
+                                    },
+                                    "job_messages": null,
+                                    "job_metrics": null,
+                                    "job_runner_name": null,
+                                    "job_stderr": null,
+                                    "job_stdout": null,
+                                    "model_class": "Job",
+                                    "output_collections": {
+                                        "forward": {
+                                            "id": "7c05dfc1cbaf46d1",
+                                            "src": "hdca"
+                                        },
+                                        "reverse": {
+                                            "id": "3dfcd152be72a1c7",
+                                            "src": "hdca"
+                                        }
+                                    },
+                                    "outputs": {
+                                        "forward": {
+                                            "id": "4838ba20a6d86765344b82b7f7e9f430",
+                                            "src": "hda",
+                                            "uuid": "cf760f35-07bf-4d60-9b76-add9ebf9adb7"
+                                        },
+                                        "reverse": {
+                                            "id": "4838ba20a6d86765e25fe2f94b9f6a13",
+                                            "src": "hda",
+                                            "uuid": "73b9e973-c378-4c0d-8c2b-ecc2daad01e3"
+                                        }
+                                    },
+                                    "params": {
+                                        "__workflow_invocation_uuid__": "\"7edfda5aa82d11efadb6001e67d2ec02\"",
+                                        "input": "{\"values\": [{\"id\": 134762354, \"src\": \"dce\"}]}"
+                                    },
+                                    "state": "ok",
+                                    "stderr": "",
+                                    "stdout": "",
+                                    "tool_id": "__UNZIP_COLLECTION__",
+                                    "tool_stderr": null,
+                                    "tool_stdout": null,
+                                    "update_time": "2024-11-21T17:25:13.492203",
+                                    "user_email": null
+                                },
+                                {
+                                    "command_line": null,
+                                    "command_version": null,
+                                    "copied_from_job_id": null,
+                                    "create_time": "2024-11-21T17:25:13.417708",
+                                    "dependencies": [],
+                                    "exit_code": null,
+                                    "external_id": null,
+                                    "galaxy_version": "24.1",
+                                    "handler": null,
+                                    "history_id": "1d9d5e636bb3ff26",
+                                    "id": "11ac94870d0bb33af173fd67b9cb6250",
+                                    "inputs": {
+                                        "input1": {
+                                            "id": "4838ba20a6d86765fd985e02f53867da",
+                                            "src": "hda",
+                                            "uuid": "3a71c0bf-b696-442b-b02e-435dca88275f"
+                                        },
+                                        "input2": {
+                                            "id": "4838ba20a6d867658bb965d604725e22",
+                                            "src": "hda",
+                                            "uuid": "d42e8ac9-d0a8-47d3-ae4a-e386581bebbe"
+                                        }
+                                    },
+                                    "job_messages": null,
+                                    "job_metrics": null,
+                                    "job_runner_name": null,
+                                    "job_stderr": null,
+                                    "job_stdout": null,
+                                    "model_class": "Job",
+                                    "output_collections": {
+                                        "forward": {
+                                            "id": "7c05dfc1cbaf46d1",
+                                            "src": "hdca"
+                                        },
+                                        "reverse": {
+                                            "id": "3dfcd152be72a1c7",
+                                            "src": "hdca"
+                                        }
+                                    },
+                                    "outputs": {
+                                        "forward": {
+                                            "id": "4838ba20a6d86765cbc49fbe93a933cc",
+                                            "src": "hda",
+                                            "uuid": "3a71c0bf-b696-442b-b02e-435dca88275f"
+                                        },
+                                        "reverse": {
+                                            "id": "4838ba20a6d867651954d16a80131dfa",
+                                            "src": "hda",
+                                            "uuid": "d42e8ac9-d0a8-47d3-ae4a-e386581bebbe"
+                                        }
+                                    },
+                                    "params": {
+                                        "__workflow_invocation_uuid__": "\"7edfda5aa82d11efadb6001e67d2ec02\"",
+                                        "input": "{\"values\": [{\"id\": 134762357, \"src\": \"dce\"}]}"
+                                    },
+                                    "state": "ok",
+                                    "stderr": "",
+                                    "stdout": "",
+                                    "tool_id": "__UNZIP_COLLECTION__",
+                                    "tool_stderr": null,
+                                    "tool_stdout": null,
+                                    "update_time": "2024-11-21T17:25:13.492204",
+                                    "user_email": null
+                                },
+                                {
+                                    "command_line": null,
+                                    "command_version": null,
+                                    "copied_from_job_id": null,
+                                    "create_time": "2024-11-21T17:25:13.417709",
+                                    "dependencies": [],
+                                    "exit_code": null,
+                                    "external_id": null,
+                                    "galaxy_version": "24.1",
+                                    "handler": null,
+                                    "history_id": "1d9d5e636bb3ff26",
+                                    "id": "11ac94870d0bb33ab520b2a53b1ade03",
+                                    "inputs": {
+                                        "input1": {
+                                            "id": "4838ba20a6d86765d2b1f8d52f3796de",
+                                            "src": "hda",
+                                            "uuid": "b562a190-2ed3-467d-8b2f-d62d443672c0"
+                                        },
+                                        "input2": {
+                                            "id": "4838ba20a6d867656346ad3ab4bc50a7",
+                                            "src": "hda",
+                                            "uuid": "ef9fb635-8056-413c-b270-1a8c73b6b257"
+                                        }
+                                    },
+                                    "job_messages": null,
+                                    "job_metrics": null,
+                                    "job_runner_name": null,
+                                    "job_stderr": null,
+                                    "job_stdout": null,
+                                    "model_class": "Job",
+                                    "output_collections": {
+                                        "forward": {
+                                            "id": "7c05dfc1cbaf46d1",
+                                            "src": "hdca"
+                                        },
+                                        "reverse": {
+                                            "id": "3dfcd152be72a1c7",
+                                            "src": "hdca"
+                                        }
+                                    },
+                                    "outputs": {
+                                        "forward": {
+                                            "id": "4838ba20a6d86765d4fcb16420e30bd9",
+                                            "src": "hda",
+                                            "uuid": "b562a190-2ed3-467d-8b2f-d62d443672c0"
+                                        },
+                                        "reverse": {
+                                            "id": "4838ba20a6d86765a7d45b52e9fbc3ce",
+                                            "src": "hda",
+                                            "uuid": "ef9fb635-8056-413c-b270-1a8c73b6b257"
+                                        }
+                                    },
+                                    "params": {
+                                        "__workflow_invocation_uuid__": "\"7edfda5aa82d11efadb6001e67d2ec02\"",
+                                        "input": "{\"values\": [{\"id\": 134762360, \"src\": \"dce\"}]}"
+                                    },
+                                    "state": "ok",
+                                    "stderr": "",
+                                    "stdout": "",
+                                    "tool_id": "__UNZIP_COLLECTION__",
+                                    "tool_stderr": null,
+                                    "tool_stdout": null,
+                                    "update_time": "2024-11-21T17:25:13.492204",
+                                    "user_email": null
+                                },
+                                {
+                                    "command_line": null,
+                                    "command_version": null,
+                                    "copied_from_job_id": null,
+                                    "create_time": "2024-11-21T17:25:13.417710",
+                                    "dependencies": [],
+                                    "exit_code": null,
+                                    "external_id": null,
+                                    "galaxy_version": "24.1",
+                                    "handler": null,
+                                    "history_id": "1d9d5e636bb3ff26",
+                                    "id": "11ac94870d0bb33a24071b0c3a3522f7",
+                                    "inputs": {
+                                        "input1": {
+                                            "id": "4838ba20a6d86765887a8fb07582611a",
+                                            "src": "hda",
+                                            "uuid": "edc9af54-22bb-4985-aceb-5045f74502e5"
+                                        },
+                                        "input2": {
+                                            "id": "4838ba20a6d86765c8368e5d4cba08dd",
+                                            "src": "hda",
+                                            "uuid": "b37fe5f6-eca9-4258-9367-604f065df906"
+                                        }
+                                    },
+                                    "job_messages": null,
+                                    "job_metrics": null,
+                                    "job_runner_name": null,
+                                    "job_stderr": null,
+                                    "job_stdout": null,
+                                    "model_class": "Job",
+                                    "output_collections": {
+                                        "forward": {
+                                            "id": "7c05dfc1cbaf46d1",
+                                            "src": "hdca"
+                                        },
+                                        "reverse": {
+                                            "id": "3dfcd152be72a1c7",
+                                            "src": "hdca"
+                                        }
+                                    },
+                                    "outputs": {
+                                        "forward": {
+                                            "id": "4838ba20a6d86765638ba929e2f5c25a",
+                                            "src": "hda",
+                                            "uuid": "edc9af54-22bb-4985-aceb-5045f74502e5"
+                                        },
+                                        "reverse": {
+                                            "id": "4838ba20a6d86765a17bc319c8c80da4",
+                                            "src": "hda",
+                                            "uuid": "b37fe5f6-eca9-4258-9367-604f065df906"
+                                        }
+                                    },
+                                    "params": {
+                                        "__workflow_invocation_uuid__": "\"7edfda5aa82d11efadb6001e67d2ec02\"",
+                                        "input": "{\"values\": [{\"id\": 134762363, \"src\": \"dce\"}]}"
+                                    },
+                                    "state": "ok",
+                                    "stderr": "",
+                                    "stdout": "",
+                                    "tool_id": "__UNZIP_COLLECTION__",
+                                    "tool_stderr": null,
+                                    "tool_stdout": null,
+                                    "update_time": "2024-11-21T17:25:13.492205",
+                                    "user_email": null
+                                },
+                                {
+                                    "command_line": null,
+                                    "command_version": null,
+                                    "copied_from_job_id": null,
+                                    "create_time": "2024-11-21T17:25:13.417711",
+                                    "dependencies": [],
+                                    "exit_code": null,
+                                    "external_id": null,
+                                    "galaxy_version": "24.1",
+                                    "handler": null,
+                                    "history_id": "1d9d5e636bb3ff26",
+                                    "id": "11ac94870d0bb33a581522a8ca75f2a9",
+                                    "inputs": {
+                                        "input1": {
+                                            "id": "4838ba20a6d86765058a2b6fa8283f42",
+                                            "src": "hda",
+                                            "uuid": "656a1370-a2b3-429e-b5bd-79dcf08d2019"
+                                        },
+                                        "input2": {
+                                            "id": "4838ba20a6d8676507f8833c986d2b5a",
+                                            "src": "hda",
+                                            "uuid": "10b2dc85-01a6-46e6-9911-aa241bdead77"
+                                        }
+                                    },
+                                    "job_messages": null,
+                                    "job_metrics": null,
+                                    "job_runner_name": null,
+                                    "job_stderr": null,
+                                    "job_stdout": null,
+                                    "model_class": "Job",
+                                    "output_collections": {
+                                        "forward": {
+                                            "id": "7c05dfc1cbaf46d1",
+                                            "src": "hdca"
+                                        },
+                                        "reverse": {
+                                            "id": "3dfcd152be72a1c7",
+                                            "src": "hdca"
+                                        }
+                                    },
+                                    "outputs": {
+                                        "forward": {
+                                            "id": "4838ba20a6d867650619bdee0981a63b",
+                                            "src": "hda",
+                                            "uuid": "656a1370-a2b3-429e-b5bd-79dcf08d2019"
+                                        },
+                                        "reverse": {
+                                            "id": "4838ba20a6d86765eced52d971b48d8c",
+                                            "src": "hda",
+                                            "uuid": "10b2dc85-01a6-46e6-9911-aa241bdead77"
+                                        }
+                                    },
+                                    "params": {
+                                        "__workflow_invocation_uuid__": "\"7edfda5aa82d11efadb6001e67d2ec02\"",
+                                        "input": "{\"values\": [{\"id\": 134762366, \"src\": \"dce\"}]}"
+                                    },
+                                    "state": "ok",
+                                    "stderr": "",
+                                    "stdout": "",
+                                    "tool_id": "__UNZIP_COLLECTION__",
+                                    "tool_stderr": null,
+                                    "tool_stdout": null,
+                                    "update_time": "2024-11-21T17:25:13.492205",
+                                    "user_email": null
+                                },
+                                {
+                                    "command_line": null,
+                                    "command_version": null,
+                                    "copied_from_job_id": null,
+                                    "create_time": "2024-11-21T17:25:13.417712",
+                                    "dependencies": [],
+                                    "exit_code": null,
+                                    "external_id": null,
+                                    "galaxy_version": "24.1",
+                                    "handler": null,
+                                    "history_id": "1d9d5e636bb3ff26",
+                                    "id": "11ac94870d0bb33a64202ba9ac1a9d91",
+                                    "inputs": {
+                                        "input1": {
+                                            "id": "4838ba20a6d86765cb1ba9da716c6bd0",
+                                            "src": "hda",
+                                            "uuid": "253ca819-c7bb-4e27-bce3-29f2a3bf402d"
+                                        },
+                                        "input2": {
+                                            "id": "4838ba20a6d86765672cc92a0f8ed2f0",
+                                            "src": "hda",
+                                            "uuid": "aad93bf5-816c-42e5-9e11-57c4d506fbc3"
+                                        }
+                                    },
+                                    "job_messages": null,
+                                    "job_metrics": null,
+                                    "job_runner_name": null,
+                                    "job_stderr": null,
+                                    "job_stdout": null,
+                                    "model_class": "Job",
+                                    "output_collections": {
+                                        "forward": {
+                                            "id": "7c05dfc1cbaf46d1",
+                                            "src": "hdca"
+                                        },
+                                        "reverse": {
+                                            "id": "3dfcd152be72a1c7",
+                                            "src": "hdca"
+                                        }
+                                    },
+                                    "outputs": {
+                                        "forward": {
+                                            "id": "4838ba20a6d867658649f1739ed1d11c",
+                                            "src": "hda",
+                                            "uuid": "253ca819-c7bb-4e27-bce3-29f2a3bf402d"
+                                        },
+                                        "reverse": {
+                                            "id": "4838ba20a6d86765bace50e87da5e74f",
+                                            "src": "hda",
+                                            "uuid": "aad93bf5-816c-42e5-9e11-57c4d506fbc3"
+                                        }
+                                    },
+                                    "params": {
+                                        "__workflow_invocation_uuid__": "\"7edfda5aa82d11efadb6001e67d2ec02\"",
+                                        "input": "{\"values\": [{\"id\": 134762369, \"src\": \"dce\"}]}"
+                                    },
+                                    "state": "ok",
+                                    "stderr": "",
+                                    "stdout": "",
+                                    "tool_id": "__UNZIP_COLLECTION__",
+                                    "tool_stderr": null,
+                                    "tool_stdout": null,
+                                    "update_time": "2024-11-21T17:25:13.492206",
+                                    "user_email": null
+                                },
+                                {
+                                    "command_line": null,
+                                    "command_version": null,
+                                    "copied_from_job_id": null,
+                                    "create_time": "2024-11-21T17:25:13.417713",
+                                    "dependencies": [],
+                                    "exit_code": null,
+                                    "external_id": null,
+                                    "galaxy_version": "24.1",
+                                    "handler": null,
+                                    "history_id": "1d9d5e636bb3ff26",
+                                    "id": "11ac94870d0bb33acdd5551851145ace",
+                                    "inputs": {
+                                        "input1": {
+                                            "id": "4838ba20a6d867653c0ca422aaa5a752",
+                                            "src": "hda",
+                                            "uuid": "0c6d8138-d015-44d2-83f0-bccc2f254cf0"
+                                        },
+                                        "input2": {
+                                            "id": "4838ba20a6d86765b55642e39c70235b",
+                                            "src": "hda",
+                                            "uuid": "2b9afb53-11cc-4505-b792-7a5b19f7a9f9"
+                                        }
+                                    },
+                                    "job_messages": null,
+                                    "job_metrics": null,
+                                    "job_runner_name": null,
+                                    "job_stderr": null,
+                                    "job_stdout": null,
+                                    "model_class": "Job",
+                                    "output_collections": {
+                                        "forward": {
+                                            "id": "7c05dfc1cbaf46d1",
+                                            "src": "hdca"
+                                        },
+                                        "reverse": {
+                                            "id": "3dfcd152be72a1c7",
+                                            "src": "hdca"
+                                        }
+                                    },
+                                    "outputs": {
+                                        "forward": {
+                                            "id": "4838ba20a6d86765ed88eee63cdf29f2",
+                                            "src": "hda",
+                                            "uuid": "0c6d8138-d015-44d2-83f0-bccc2f254cf0"
+                                        },
+                                        "reverse": {
+                                            "id": "4838ba20a6d86765b1204e2f0b200533",
+                                            "src": "hda",
+                                            "uuid": "2b9afb53-11cc-4505-b792-7a5b19f7a9f9"
+                                        }
+                                    },
+                                    "params": {
+                                        "__workflow_invocation_uuid__": "\"7edfda5aa82d11efadb6001e67d2ec02\"",
+                                        "input": "{\"values\": [{\"id\": 134762372, \"src\": \"dce\"}]}"
+                                    },
+                                    "state": "ok",
+                                    "stderr": "",
+                                    "stdout": "",
+                                    "tool_id": "__UNZIP_COLLECTION__",
+                                    "tool_stderr": null,
+                                    "tool_stdout": null,
+                                    "update_time": "2024-11-21T17:25:13.492206",
+                                    "user_email": null
+                                },
+                                {
+                                    "command_line": null,
+                                    "command_version": null,
+                                    "copied_from_job_id": null,
+                                    "create_time": "2024-11-21T17:25:13.417714",
+                                    "dependencies": [],
+                                    "exit_code": null,
+                                    "external_id": null,
+                                    "galaxy_version": "24.1",
+                                    "handler": null,
+                                    "history_id": "1d9d5e636bb3ff26",
+                                    "id": "11ac94870d0bb33afa4461608b94f4c3",
+                                    "inputs": {
+                                        "input1": {
+                                            "id": "4838ba20a6d86765d1dca3e849bd4da9",
+                                            "src": "hda",
+                                            "uuid": "1544e490-2257-4c43-a90d-2927737e18df"
+                                        },
+                                        "input2": {
+                                            "id": "4838ba20a6d867655ae73c5fe8a7f6d5",
+                                            "src": "hda",
+                                            "uuid": "74e942aa-d8ed-4912-94bd-c0a886b5ecba"
+                                        }
+                                    },
+                                    "job_messages": null,
+                                    "job_metrics": null,
+                                    "job_runner_name": null,
+                                    "job_stderr": null,
+                                    "job_stdout": null,
+                                    "model_class": "Job",
+                                    "output_collections": {
+                                        "forward": {
+                                            "id": "7c05dfc1cbaf46d1",
+                                            "src": "hdca"
+                                        },
+                                        "reverse": {
+                                            "id": "3dfcd152be72a1c7",
+                                            "src": "hdca"
+                                        }
+                                    },
+                                    "outputs": {
+                                        "forward": {
+                                            "id": "4838ba20a6d86765ca1bd7ea36ef8f17",
+                                            "src": "hda",
+                                            "uuid": "1544e490-2257-4c43-a90d-2927737e18df"
+                                        },
+                                        "reverse": {
+                                            "id": "4838ba20a6d867657bc4882d5bd3c8bd",
+                                            "src": "hda",
+                                            "uuid": "74e942aa-d8ed-4912-94bd-c0a886b5ecba"
+                                        }
+                                    },
+                                    "params": {
+                                        "__workflow_invocation_uuid__": "\"7edfda5aa82d11efadb6001e67d2ec02\"",
+                                        "input": "{\"values\": [{\"id\": 134762375, \"src\": \"dce\"}]}"
+                                    },
+                                    "state": "ok",
+                                    "stderr": "",
+                                    "stdout": "",
+                                    "tool_id": "__UNZIP_COLLECTION__",
+                                    "tool_stderr": null,
+                                    "tool_stdout": null,
+                                    "update_time": "2024-11-21T17:25:13.492207",
+                                    "user_email": null
+                                }
+                            ],
+                            "model_class": "WorkflowInvocationStep",
+                            "order_index": 2,
+                            "output_collections": {
+                                "forward": {
+                                    "id": "7c05dfc1cbaf46d1",
+                                    "src": "hdca"
+                                },
+                                "reverse": {
+                                    "id": "3dfcd152be72a1c7",
+                                    "src": "hdca"
+                                }
+                            },
+                            "outputs": {},
+                            "state": "scheduled",
+                            "subworkflow": null,
+                            "subworkflow_invocation_id": null,
+                            "update_time": "2024-11-21T17:25:13.691827",
+                            "workflow_step_id": "32cbccd55f3ed881",
+                            "workflow_step_label": null,
+                            "workflow_step_uuid": "b112a4f4-ae2d-4fb2-aaf0-3d5839e70fc7"
+                        },
+                        "3. Unnamed step": {
+                            "action": null,
+                            "id": "dfe430776df6e921",
+                            "implicit_collection_jobs_id": null,
+                            "job_id": "11ac94870d0bb33a9972163f9d5772ba",
+                            "jobs": [
+                                {
+                                    "command_line": null,
+                                    "command_version": null,
+                                    "copied_from_job_id": null,
+                                    "create_time": "2024-11-21T17:25:13.684529",
+                                    "dependencies": [],
+                                    "exit_code": null,
+                                    "external_id": null,
+                                    "galaxy_version": "24.1",
+                                    "handler": null,
+                                    "history_id": "1d9d5e636bb3ff26",
+                                    "id": "11ac94870d0bb33a9972163f9d5772ba",
+                                    "inputs": {
+                                        "input1": {
+                                            "id": "4838ba20a6d86765fecb052409e8fa2d",
+                                            "src": "hda",
+                                            "uuid": "62bffce0-45fe-46c4-ae98-906277198e45"
+                                        },
+                                        "input2": {
+                                            "id": "4838ba20a6d86765e25fe2f94b9f6a13",
+                                            "src": "hda",
+                                            "uuid": "73b9e973-c378-4c0d-8c2b-ecc2daad01e3"
+                                        },
+                                        "input3": {
+                                            "id": "4838ba20a6d867651954d16a80131dfa",
+                                            "src": "hda",
+                                            "uuid": "d42e8ac9-d0a8-47d3-ae4a-e386581bebbe"
+                                        },
+                                        "input4": {
+                                            "id": "4838ba20a6d86765a7d45b52e9fbc3ce",
+                                            "src": "hda",
+                                            "uuid": "ef9fb635-8056-413c-b270-1a8c73b6b257"
+                                        },
+                                        "input5": {
+                                            "id": "4838ba20a6d86765a17bc319c8c80da4",
+                                            "src": "hda",
+                                            "uuid": "b37fe5f6-eca9-4258-9367-604f065df906"
+                                        },
+                                        "input6": {
+                                            "id": "4838ba20a6d86765eced52d971b48d8c",
+                                            "src": "hda",
+                                            "uuid": "10b2dc85-01a6-46e6-9911-aa241bdead77"
+                                        },
+                                        "input7": {
+                                            "id": "4838ba20a6d86765bace50e87da5e74f",
+                                            "src": "hda",
+                                            "uuid": "aad93bf5-816c-42e5-9e11-57c4d506fbc3"
+                                        },
+                                        "input8": {
+                                            "id": "4838ba20a6d86765b1204e2f0b200533",
+                                            "src": "hda",
+                                            "uuid": "2b9afb53-11cc-4505-b792-7a5b19f7a9f9"
+                                        },
+                                        "input9": {
+                                            "id": "4838ba20a6d867657bc4882d5bd3c8bd",
+                                            "src": "hda",
+                                            "uuid": "74e942aa-d8ed-4912-94bd-c0a886b5ecba"
+                                        },
+                                        "tags": {
+                                            "id": "4838ba20a6d8676532344e535b24e029",
+                                            "src": "hda",
+                                            "uuid": "57f7a6a8-c25f-4c8c-a72b-8e88feb5f314"
+                                        }
+                                    },
+                                    "job_messages": null,
+                                    "job_metrics": null,
+                                    "job_runner_name": null,
+                                    "job_stderr": null,
+                                    "job_stdout": null,
+                                    "model_class": "Job",
+                                    "output_collections": {
+                                        "output": {
+                                            "id": "7d3d621577c0c945",
+                                            "src": "hdca"
+                                        }
+                                    },
+                                    "outputs": {},
+                                    "params": {
+                                        "__workflow_invocation_uuid__": "\"7edfda5aa82d11efadb6001e67d2ec02\"",
+                                        "how": "\"add\"",
+                                        "input": "{\"values\": [{\"id\": 3075777, \"src\": \"hdca\"}]}"
+                                    },
+                                    "state": "ok",
+                                    "stderr": "",
+                                    "stdout": "",
+                                    "tool_id": "__TAG_FROM_FILE__",
+                                    "tool_stderr": null,
+                                    "tool_stdout": null,
+                                    "update_time": "2024-11-21T17:25:13.723901",
+                                    "user_email": null
+                                }
+                            ],
+                            "model_class": "WorkflowInvocationStep",
+                            "order_index": 3,
+                            "output_collections": {
+                                "output": {
+                                    "id": "7d3d621577c0c945",
+                                    "src": "hdca"
+                                }
+                            },
+                            "outputs": {},
+                            "state": "scheduled",
+                            "subworkflow": null,
+                            "subworkflow_invocation_id": null,
+                            "update_time": "2024-11-21T17:25:13.882878",
+                            "workflow_step_id": "23ae4387546b2930",
+                            "workflow_step_label": null,
+                            "workflow_step_uuid": "bb02f573-9d56-4b18-a093-58b91ede674f"
+                        },
+                        "4. Unnamed step": {
+                            "action": null,
+                            "id": "805d8b76e13b569c",
+                            "implicit_collection_jobs_id": null,
+                            "job_id": "11ac94870d0bb33ac7c63d8039e646ba",
+                            "jobs": [
+                                {
+                                    "command_line": null,
+                                    "command_version": null,
+                                    "copied_from_job_id": null,
+                                    "create_time": "2024-11-21T17:25:13.874007",
+                                    "dependencies": [],
+                                    "exit_code": null,
+                                    "external_id": null,
+                                    "galaxy_version": "24.1",
+                                    "handler": null,
+                                    "history_id": "1d9d5e636bb3ff26",
+                                    "id": "11ac94870d0bb33ac7c63d8039e646ba",
+                                    "inputs": {
+                                        "input1": {
+                                            "id": "4838ba20a6d867656354d72c9d15bfd6",
+                                            "src": "hda",
+                                            "uuid": "4992bbff-70e2-4e88-b4c4-f4346dbbf201"
+                                        },
+                                        "input2": {
+                                            "id": "4838ba20a6d86765344b82b7f7e9f430",
+                                            "src": "hda",
+                                            "uuid": "cf760f35-07bf-4d60-9b76-add9ebf9adb7"
+                                        },
+                                        "input3": {
+                                            "id": "4838ba20a6d86765cbc49fbe93a933cc",
+                                            "src": "hda",
+                                            "uuid": "3a71c0bf-b696-442b-b02e-435dca88275f"
+                                        },
+                                        "input4": {
+                                            "id": "4838ba20a6d86765d4fcb16420e30bd9",
+                                            "src": "hda",
+                                            "uuid": "b562a190-2ed3-467d-8b2f-d62d443672c0"
+                                        },
+                                        "input5": {
+                                            "id": "4838ba20a6d86765638ba929e2f5c25a",
+                                            "src": "hda",
+                                            "uuid": "edc9af54-22bb-4985-aceb-5045f74502e5"
+                                        },
+                                        "input6": {
+                                            "id": "4838ba20a6d867650619bdee0981a63b",
+                                            "src": "hda",
+                                            "uuid": "656a1370-a2b3-429e-b5bd-79dcf08d2019"
+                                        },
+                                        "input7": {
+                                            "id": "4838ba20a6d867658649f1739ed1d11c",
+                                            "src": "hda",
+                                            "uuid": "253ca819-c7bb-4e27-bce3-29f2a3bf402d"
+                                        },
+                                        "input8": {
+                                            "id": "4838ba20a6d86765ed88eee63cdf29f2",
+                                            "src": "hda",
+                                            "uuid": "0c6d8138-d015-44d2-83f0-bccc2f254cf0"
+                                        },
+                                        "input9": {
+                                            "id": "4838ba20a6d86765ca1bd7ea36ef8f17",
+                                            "src": "hda",
+                                            "uuid": "1544e490-2257-4c43-a90d-2927737e18df"
+                                        },
+                                        "tags": {
+                                            "id": "4838ba20a6d8676532344e535b24e029",
+                                            "src": "hda",
+                                            "uuid": "57f7a6a8-c25f-4c8c-a72b-8e88feb5f314"
+                                        }
+                                    },
+                                    "job_messages": null,
+                                    "job_metrics": null,
+                                    "job_runner_name": null,
+                                    "job_stderr": null,
+                                    "job_stdout": null,
+                                    "model_class": "Job",
+                                    "output_collections": {
+                                        "output": {
+                                            "id": "1162570f3b5165f2",
+                                            "src": "hdca"
+                                        }
+                                    },
+                                    "outputs": {},
+                                    "params": {
+                                        "__workflow_invocation_uuid__": "\"7edfda5aa82d11efadb6001e67d2ec02\"",
+                                        "how": "\"add\"",
+                                        "input": "{\"values\": [{\"id\": 3075776, \"src\": \"hdca\"}]}"
+                                    },
+                                    "state": "ok",
+                                    "stderr": "",
+                                    "stdout": "",
+                                    "tool_id": "__TAG_FROM_FILE__",
+                                    "tool_stderr": null,
+                                    "tool_stdout": null,
+                                    "update_time": "2024-11-21T17:25:13.918700",
+                                    "user_email": null
+                                }
+                            ],
+                            "model_class": "WorkflowInvocationStep",
+                            "order_index": 4,
+                            "output_collections": {
+                                "output": {
+                                    "id": "1162570f3b5165f2",
+                                    "src": "hdca"
+                                }
+                            },
+                            "outputs": {},
+                            "state": "scheduled",
+                            "subworkflow": null,
+                            "subworkflow_invocation_id": null,
+                            "update_time": "2024-11-21T17:25:14.086566",
+                            "workflow_step_id": "79e1a771e19722d9",
+                            "workflow_step_label": null,
+                            "workflow_step_uuid": "f93c1372-0146-4b38-b495-fb82b77ffbdf"
+                        },
+                        "5. Unnamed step": {
+                            "action": null,
+                            "id": "d62c614244a58064",
+                            "implicit_collection_jobs_id": null,
+                            "job_id": null,
+                            "jobs": [
+                                {
+                                    "command_line": null,
+                                    "command_version": null,
+                                    "copied_from_job_id": null,
+                                    "create_time": "2024-11-21T17:25:14.264807",
+                                    "dependencies": [],
+                                    "exit_code": null,
+                                    "external_id": null,
+                                    "galaxy_version": "24.1",
+                                    "handler": null,
+                                    "history_id": "1d9d5e636bb3ff26",
+                                    "id": "11ac94870d0bb33a80e0028c596057a5",
+                                    "inputs": {
+                                        "input_forward": {
+                                            "id": "4838ba20a6d8676571a74cecea5c85cd",
+                                            "src": "hda",
+                                            "uuid": "4992bbff-70e2-4e88-b4c4-f4346dbbf201"
+                                        },
+                                        "input_reverse": {
+                                            "id": "4838ba20a6d867657775f389e485f1da",
+                                            "src": "hda",
+                                            "uuid": "62bffce0-45fe-46c4-ae98-906277198e45"
+                                        }
+                                    },
+                                    "job_messages": null,
+                                    "job_metrics": null,
+                                    "job_runner_name": null,
+                                    "job_stderr": null,
+                                    "job_stdout": null,
+                                    "model_class": "Job",
+                                    "output_collections": {
+                                        "output": {
+                                            "id": "061726fdf088de68",
+                                            "src": "hdca"
+                                        }
+                                    },
+                                    "outputs": {},
+                                    "params": {
+                                        "__workflow_invocation_uuid__": "\"7edfda5aa82d11efadb6001e67d2ec02\""
+                                    },
+                                    "state": "ok",
+                                    "stderr": "",
+                                    "stdout": "",
+                                    "tool_id": "__ZIP_COLLECTION__",
+                                    "tool_stderr": null,
+                                    "tool_stdout": null,
+                                    "update_time": "2024-11-21T17:25:14.366651",
+                                    "user_email": null
+                                },
+                                {
+                                    "command_line": null,
+                                    "command_version": null,
+                                    "copied_from_job_id": null,
+                                    "create_time": "2024-11-21T17:25:14.264810",
+                                    "dependencies": [],
+                                    "exit_code": null,
+                                    "external_id": null,
+                                    "galaxy_version": "24.1",
+                                    "handler": null,
+                                    "history_id": "1d9d5e636bb3ff26",
+                                    "id": "11ac94870d0bb33a02fecb0de575ea92",
+                                    "inputs": {
+                                        "input_forward": {
+                                            "id": "4838ba20a6d8676566d7464e06c8b163",
+                                            "src": "hda",
+                                            "uuid": "cf760f35-07bf-4d60-9b76-add9ebf9adb7"
+                                        },
+                                        "input_reverse": {
+                                            "id": "4838ba20a6d86765a53db416cc1d0bf7",
+                                            "src": "hda",
+                                            "uuid": "73b9e973-c378-4c0d-8c2b-ecc2daad01e3"
+                                        }
+                                    },
+                                    "job_messages": null,
+                                    "job_metrics": null,
+                                    "job_runner_name": null,
+                                    "job_stderr": null,
+                                    "job_stdout": null,
+                                    "model_class": "Job",
+                                    "output_collections": {
+                                        "output": {
+                                            "id": "061726fdf088de68",
+                                            "src": "hdca"
+                                        }
+                                    },
+                                    "outputs": {},
+                                    "params": {
+                                        "__workflow_invocation_uuid__": "\"7edfda5aa82d11efadb6001e67d2ec02\""
+                                    },
+                                    "state": "ok",
+                                    "stderr": "",
+                                    "stdout": "",
+                                    "tool_id": "__ZIP_COLLECTION__",
+                                    "tool_stderr": null,
+                                    "tool_stdout": null,
+                                    "update_time": "2024-11-21T17:25:14.366653",
+                                    "user_email": null
+                                },
+                                {
+                                    "command_line": null,
+                                    "command_version": null,
+                                    "copied_from_job_id": null,
+                                    "create_time": "2024-11-21T17:25:14.264811",
+                                    "dependencies": [],
+                                    "exit_code": null,
+                                    "external_id": null,
+                                    "galaxy_version": "24.1",
+                                    "handler": null,
+                                    "history_id": "1d9d5e636bb3ff26",
+                                    "id": "11ac94870d0bb33a5dcbd53b02cb7668",
+                                    "inputs": {
+                                        "input_forward": {
+                                            "id": "4838ba20a6d86765de25f98995f1914c",
+                                            "src": "hda",
+                                            "uuid": "3a71c0bf-b696-442b-b02e-435dca88275f"
+                                        },
+                                        "input_reverse": {
+                                            "id": "4838ba20a6d86765d90efde36f8edf9d",
+                                            "src": "hda",
+                                            "uuid": "d42e8ac9-d0a8-47d3-ae4a-e386581bebbe"
+                                        }
+                                    },
+                                    "job_messages": null,
+                                    "job_metrics": null,
+                                    "job_runner_name": null,
+                                    "job_stderr": null,
+                                    "job_stdout": null,
+                                    "model_class": "Job",
+                                    "output_collections": {
+                                        "output": {
+                                            "id": "061726fdf088de68",
+                                            "src": "hdca"
+                                        }
+                                    },
+                                    "outputs": {},
+                                    "params": {
+                                        "__workflow_invocation_uuid__": "\"7edfda5aa82d11efadb6001e67d2ec02\""
+                                    },
+                                    "state": "ok",
+                                    "stderr": "",
+                                    "stdout": "",
+                                    "tool_id": "__ZIP_COLLECTION__",
+                                    "tool_stderr": null,
+                                    "tool_stdout": null,
+                                    "update_time": "2024-11-21T17:25:14.366654",
+                                    "user_email": null
+                                },
+                                {
+                                    "command_line": null,
+                                    "command_version": null,
+                                    "copied_from_job_id": null,
+                                    "create_time": "2024-11-21T17:25:14.264812",
+                                    "dependencies": [],
+                                    "exit_code": null,
+                                    "external_id": null,
+                                    "galaxy_version": "24.1",
+                                    "handler": null,
+                                    "history_id": "1d9d5e636bb3ff26",
+                                    "id": "11ac94870d0bb33a017253f3e239e72e",
+                                    "inputs": {
+                                        "input_forward": {
+                                            "id": "4838ba20a6d86765f23a0eb76f461112",
+                                            "src": "hda",
+                                            "uuid": "b562a190-2ed3-467d-8b2f-d62d443672c0"
+                                        },
+                                        "input_reverse": {
+                                            "id": "4838ba20a6d8676537b213bc7cfa79ec",
+                                            "src": "hda",
+                                            "uuid": "ef9fb635-8056-413c-b270-1a8c73b6b257"
+                                        }
+                                    },
+                                    "job_messages": null,
+                                    "job_metrics": null,
+                                    "job_runner_name": null,
+                                    "job_stderr": null,
+                                    "job_stdout": null,
+                                    "model_class": "Job",
+                                    "output_collections": {
+                                        "output": {
+                                            "id": "061726fdf088de68",
+                                            "src": "hdca"
+                                        }
+                                    },
+                                    "outputs": {},
+                                    "params": {
+                                        "__workflow_invocation_uuid__": "\"7edfda5aa82d11efadb6001e67d2ec02\""
+                                    },
+                                    "state": "ok",
+                                    "stderr": "",
+                                    "stdout": "",
+                                    "tool_id": "__ZIP_COLLECTION__",
+                                    "tool_stderr": null,
+                                    "tool_stdout": null,
+                                    "update_time": "2024-11-21T17:25:14.366655",
+                                    "user_email": null
+                                },
+                                {
+                                    "command_line": null,
+                                    "command_version": null,
+                                    "copied_from_job_id": null,
+                                    "create_time": "2024-11-21T17:25:14.264813",
+                                    "dependencies": [],
+                                    "exit_code": null,
+                                    "external_id": null,
+                                    "galaxy_version": "24.1",
+                                    "handler": null,
+                                    "history_id": "1d9d5e636bb3ff26",
+                                    "id": "11ac94870d0bb33acc88b30cb127b2d4",
+                                    "inputs": {
+                                        "input_forward": {
+                                            "id": "4838ba20a6d8676509624b7ef820a5e1",
+                                            "src": "hda",
+                                            "uuid": "edc9af54-22bb-4985-aceb-5045f74502e5"
+                                        },
+                                        "input_reverse": {
+                                            "id": "4838ba20a6d8676579f80c3259f0f403",
+                                            "src": "hda",
+                                            "uuid": "b37fe5f6-eca9-4258-9367-604f065df906"
+                                        }
+                                    },
+                                    "job_messages": null,
+                                    "job_metrics": null,
+                                    "job_runner_name": null,
+                                    "job_stderr": null,
+                                    "job_stdout": null,
+                                    "model_class": "Job",
+                                    "output_collections": {
+                                        "output": {
+                                            "id": "061726fdf088de68",
+                                            "src": "hdca"
+                                        }
+                                    },
+                                    "outputs": {},
+                                    "params": {
+                                        "__workflow_invocation_uuid__": "\"7edfda5aa82d11efadb6001e67d2ec02\""
+                                    },
+                                    "state": "ok",
+                                    "stderr": "",
+                                    "stdout": "",
+                                    "tool_id": "__ZIP_COLLECTION__",
+                                    "tool_stderr": null,
+                                    "tool_stdout": null,
+                                    "update_time": "2024-11-21T17:25:14.366655",
+                                    "user_email": null
+                                },
+                                {
+                                    "command_line": null,
+                                    "command_version": null,
+                                    "copied_from_job_id": null,
+                                    "create_time": "2024-11-21T17:25:14.264814",
+                                    "dependencies": [],
+                                    "exit_code": null,
+                                    "external_id": null,
+                                    "galaxy_version": "24.1",
+                                    "handler": null,
+                                    "history_id": "1d9d5e636bb3ff26",
+                                    "id": "11ac94870d0bb33af0b72bb215c9a7ff",
+                                    "inputs": {
+                                        "input_forward": {
+                                            "id": "4838ba20a6d86765f7a8b30021a2f0b8",
+                                            "src": "hda",
+                                            "uuid": "656a1370-a2b3-429e-b5bd-79dcf08d2019"
+                                        },
+                                        "input_reverse": {
+                                            "id": "4838ba20a6d867659770ca5b0d222580",
+                                            "src": "hda",
+                                            "uuid": "10b2dc85-01a6-46e6-9911-aa241bdead77"
+                                        }
+                                    },
+                                    "job_messages": null,
+                                    "job_metrics": null,
+                                    "job_runner_name": null,
+                                    "job_stderr": null,
+                                    "job_stdout": null,
+                                    "model_class": "Job",
+                                    "output_collections": {
+                                        "output": {
+                                            "id": "061726fdf088de68",
+                                            "src": "hdca"
+                                        }
+                                    },
+                                    "outputs": {},
+                                    "params": {
+                                        "__workflow_invocation_uuid__": "\"7edfda5aa82d11efadb6001e67d2ec02\""
+                                    },
+                                    "state": "ok",
+                                    "stderr": "",
+                                    "stdout": "",
+                                    "tool_id": "__ZIP_COLLECTION__",
+                                    "tool_stderr": null,
+                                    "tool_stdout": null,
+                                    "update_time": "2024-11-21T17:25:14.366656",
+                                    "user_email": null
+                                },
+                                {
+                                    "command_line": null,
+                                    "command_version": null,
+                                    "copied_from_job_id": null,
+                                    "create_time": "2024-11-21T17:25:14.264815",
+                                    "dependencies": [],
+                                    "exit_code": null,
+                                    "external_id": null,
+                                    "galaxy_version": "24.1",
+                                    "handler": null,
+                                    "history_id": "1d9d5e636bb3ff26",
+                                    "id": "11ac94870d0bb33a7fee689ea60fad01",
+                                    "inputs": {
+                                        "input_forward": {
+                                            "id": "4838ba20a6d8676569315c95f5f642fb",
+                                            "src": "hda",
+                                            "uuid": "253ca819-c7bb-4e27-bce3-29f2a3bf402d"
+                                        },
+                                        "input_reverse": {
+                                            "id": "4838ba20a6d8676500c436f54db0138c",
+                                            "src": "hda",
+                                            "uuid": "aad93bf5-816c-42e5-9e11-57c4d506fbc3"
+                                        }
+                                    },
+                                    "job_messages": null,
+                                    "job_metrics": null,
+                                    "job_runner_name": null,
+                                    "job_stderr": null,
+                                    "job_stdout": null,
+                                    "model_class": "Job",
+                                    "output_collections": {
+                                        "output": {
+                                            "id": "061726fdf088de68",
+                                            "src": "hdca"
+                                        }
+                                    },
+                                    "outputs": {},
+                                    "params": {
+                                        "__workflow_invocation_uuid__": "\"7edfda5aa82d11efadb6001e67d2ec02\""
+                                    },
+                                    "state": "ok",
+                                    "stderr": "",
+                                    "stdout": "",
+                                    "tool_id": "__ZIP_COLLECTION__",
+                                    "tool_stderr": null,
+                                    "tool_stdout": null,
+                                    "update_time": "2024-11-21T17:25:14.366656",
+                                    "user_email": null
+                                },
+                                {
+                                    "command_line": null,
+                                    "command_version": null,
+                                    "copied_from_job_id": null,
+                                    "create_time": "2024-11-21T17:25:14.264816",
+                                    "dependencies": [],
+                                    "exit_code": null,
+                                    "external_id": null,
+                                    "galaxy_version": "24.1",
+                                    "handler": null,
+                                    "history_id": "1d9d5e636bb3ff26",
+                                    "id": "11ac94870d0bb33abc1d2bc6a93182b9",
+                                    "inputs": {
+                                        "input_forward": {
+                                            "id": "4838ba20a6d867650c86a8fe555ca8e5",
+                                            "src": "hda",
+                                            "uuid": "0c6d8138-d015-44d2-83f0-bccc2f254cf0"
+                                        },
+                                        "input_reverse": {
+                                            "id": "4838ba20a6d86765d1ac0e0f2e51474b",
+                                            "src": "hda",
+                                            "uuid": "2b9afb53-11cc-4505-b792-7a5b19f7a9f9"
+                                        }
+                                    },
+                                    "job_messages": null,
+                                    "job_metrics": null,
+                                    "job_runner_name": null,
+                                    "job_stderr": null,
+                                    "job_stdout": null,
+                                    "model_class": "Job",
+                                    "output_collections": {
+                                        "output": {
+                                            "id": "061726fdf088de68",
+                                            "src": "hdca"
+                                        }
+                                    },
+                                    "outputs": {},
+                                    "params": {
+                                        "__workflow_invocation_uuid__": "\"7edfda5aa82d11efadb6001e67d2ec02\""
+                                    },
+                                    "state": "ok",
+                                    "stderr": "",
+                                    "stdout": "",
+                                    "tool_id": "__ZIP_COLLECTION__",
+                                    "tool_stderr": null,
+                                    "tool_stdout": null,
+                                    "update_time": "2024-11-21T17:25:14.366657",
+                                    "user_email": null
+                                },
+                                {
+                                    "command_line": null,
+                                    "command_version": null,
+                                    "copied_from_job_id": null,
+                                    "create_time": "2024-11-21T17:25:14.264817",
+                                    "dependencies": [],
+                                    "exit_code": null,
+                                    "external_id": null,
+                                    "galaxy_version": "24.1",
+                                    "handler": null,
+                                    "history_id": "1d9d5e636bb3ff26",
+                                    "id": "11ac94870d0bb33a36b3ea6335c40c66",
+                                    "inputs": {
+                                        "input_forward": {
+                                            "id": "4838ba20a6d86765ec4b0c4a8f00187f",
+                                            "src": "hda",
+                                            "uuid": "1544e490-2257-4c43-a90d-2927737e18df"
+                                        },
+                                        "input_reverse": {
+                                            "id": "4838ba20a6d86765e0b984729c980ed7",
+                                            "src": "hda",
+                                            "uuid": "74e942aa-d8ed-4912-94bd-c0a886b5ecba"
+                                        }
+                                    },
+                                    "job_messages": null,
+                                    "job_metrics": null,
+                                    "job_runner_name": null,
+                                    "job_stderr": null,
+                                    "job_stdout": null,
+                                    "model_class": "Job",
+                                    "output_collections": {
+                                        "output": {
+                                            "id": "061726fdf088de68",
+                                            "src": "hdca"
+                                        }
+                                    },
+                                    "outputs": {},
+                                    "params": {
+                                        "__workflow_invocation_uuid__": "\"7edfda5aa82d11efadb6001e67d2ec02\""
+                                    },
+                                    "state": "ok",
+                                    "stderr": "",
+                                    "stdout": "",
+                                    "tool_id": "__ZIP_COLLECTION__",
+                                    "tool_stderr": null,
+                                    "tool_stdout": null,
+                                    "update_time": "2024-11-21T17:25:14.366658",
+                                    "user_email": null
+                                }
+                            ],
+                            "model_class": "WorkflowInvocationStep",
+                            "order_index": 5,
+                            "output_collections": {
+                                "output": {
+                                    "id": "061726fdf088de68",
+                                    "src": "hdca"
+                                }
+                            },
+                            "outputs": {},
+                            "state": "scheduled",
+                            "subworkflow": null,
+                            "subworkflow_invocation_id": null,
+                            "update_time": "2024-11-21T17:25:14.670201",
+                            "workflow_step_id": "a53c6c13082eec68",
+                            "workflow_step_label": null,
+                            "workflow_step_uuid": "8b70fe67-48e7-4321-b0f1-d6c099b09719"
+                        },
+                        "6. Unnamed step": {
+                            "action": null,
+                            "id": "bac4d7c225953b26",
+                            "implicit_collection_jobs_id": null,
+                            "job_id": "11ac94870d0bb33a7f5629d984d39852",
+                            "jobs": [
+                                {
+                                    "command_line": null,
+                                    "command_version": null,
+                                    "copied_from_job_id": null,
+                                    "create_time": "2024-11-21T17:25:14.662578",
+                                    "dependencies": [],
+                                    "exit_code": null,
+                                    "external_id": null,
+                                    "galaxy_version": "24.1",
+                                    "handler": null,
+                                    "history_id": "1d9d5e636bb3ff26",
+                                    "id": "11ac94870d0bb33a7f5629d984d39852",
+                                    "inputs": {
+                                        "input1": {
+                                            "id": "4838ba20a6d86765bc7799ea6f86d758",
+                                            "src": "hda",
+                                            "uuid": "4992bbff-70e2-4e88-b4c4-f4346dbbf201"
+                                        },
+                                        "input10": {
+                                            "id": "4838ba20a6d867654fdd1ed731cc2dd4",
+                                            "src": "hda",
+                                            "uuid": "b37fe5f6-eca9-4258-9367-604f065df906"
+                                        },
+                                        "input11": {
+                                            "id": "4838ba20a6d867656568b1dc03b6e7de",
+                                            "src": "hda",
+                                            "uuid": "656a1370-a2b3-429e-b5bd-79dcf08d2019"
+                                        },
+                                        "input12": {
+                                            "id": "4838ba20a6d8676595354183806d6eab",
+                                            "src": "hda",
+                                            "uuid": "10b2dc85-01a6-46e6-9911-aa241bdead77"
+                                        },
+                                        "input13": {
+                                            "id": "4838ba20a6d86765fac2d9b80f718b80",
+                                            "src": "hda",
+                                            "uuid": "253ca819-c7bb-4e27-bce3-29f2a3bf402d"
+                                        },
+                                        "input14": {
+                                            "id": "4838ba20a6d86765d94e2bd2a6f18bc0",
+                                            "src": "hda",
+                                            "uuid": "aad93bf5-816c-42e5-9e11-57c4d506fbc3"
+                                        },
+                                        "input15": {
+                                            "id": "4838ba20a6d86765009e428c106056bd",
+                                            "src": "hda",
+                                            "uuid": "0c6d8138-d015-44d2-83f0-bccc2f254cf0"
+                                        },
+                                        "input16": {
+                                            "id": "4838ba20a6d86765ab9c308f8934de02",
+                                            "src": "hda",
+                                            "uuid": "2b9afb53-11cc-4505-b792-7a5b19f7a9f9"
+                                        },
+                                        "input17": {
+                                            "id": "4838ba20a6d86765259199caca9f8be4",
+                                            "src": "hda",
+                                            "uuid": "1544e490-2257-4c43-a90d-2927737e18df"
+                                        },
+                                        "input18": {
+                                            "id": "4838ba20a6d867659e2f33b8ef285a83",
+                                            "src": "hda",
+                                            "uuid": "74e942aa-d8ed-4912-94bd-c0a886b5ecba"
+                                        },
+                                        "input2": {
+                                            "id": "4838ba20a6d867652ed0eb7c187eb1d1",
+                                            "src": "hda",
+                                            "uuid": "62bffce0-45fe-46c4-ae98-906277198e45"
+                                        },
+                                        "input3": {
+                                            "id": "4838ba20a6d8676574dd025dccf7722b",
+                                            "src": "hda",
+                                            "uuid": "cf760f35-07bf-4d60-9b76-add9ebf9adb7"
+                                        },
+                                        "input4": {
+                                            "id": "4838ba20a6d867652a7dae57b6a96c87",
+                                            "src": "hda",
+                                            "uuid": "73b9e973-c378-4c0d-8c2b-ecc2daad01e3"
+                                        },
+                                        "input5": {
+                                            "id": "4838ba20a6d867653ae39e06279563ac",
+                                            "src": "hda",
+                                            "uuid": "3a71c0bf-b696-442b-b02e-435dca88275f"
+                                        },
+                                        "input6": {
+                                            "id": "4838ba20a6d86765f4c9ee305e15c26b",
+                                            "src": "hda",
+                                            "uuid": "d42e8ac9-d0a8-47d3-ae4a-e386581bebbe"
+                                        },
+                                        "input7": {
+                                            "id": "4838ba20a6d86765cfff0c35a35b4645",
+                                            "src": "hda",
+                                            "uuid": "b562a190-2ed3-467d-8b2f-d62d443672c0"
+                                        },
+                                        "input8": {
+                                            "id": "4838ba20a6d86765ed4cab01c01dde3b",
+                                            "src": "hda",
+                                            "uuid": "ef9fb635-8056-413c-b270-1a8c73b6b257"
+                                        },
+                                        "input9": {
+                                            "id": "4838ba20a6d867654ff5f4b326918fb9",
+                                            "src": "hda",
+                                            "uuid": "edc9af54-22bb-4985-aceb-5045f74502e5"
+                                        }
+                                    },
+                                    "job_messages": null,
+                                    "job_metrics": null,
+                                    "job_runner_name": null,
+                                    "job_stderr": null,
+                                    "job_stdout": null,
+                                    "model_class": "Job",
+                                    "output_collections": {
+                                        "output": {
+                                            "id": "a1f748df26a39af6",
+                                            "src": "hdca"
+                                        }
+                                    },
+                                    "outputs": {},
+                                    "params": {
+                                        "__workflow_invocation_uuid__": "\"7edfda5aa82d11efadb6001e67d2ec02\"",
+                                        "input": "{\"values\": [{\"id\": 3075780, \"src\": \"hdca\"}]}",
+                                        "rules": "{\"mapping\": [{\"columns\": [2, 0], \"editing\": false, \"type\": \"list_identifiers\"}, {\"columns\": [1], \"type\": \"paired_identifier\"}], \"rules\": [{\"error\": null, \"type\": \"add_column_metadata\", \"value\": \"identifier0\", \"warn\": null}, {\"error\": null, \"type\": \"add_column_metadata\", \"value\": \"identifier1\", \"warn\": null}, {\"error\": null, \"type\": \"add_column_metadata\", \"value\": \"tags\", \"warn\": null}]}"
+                                    },
+                                    "state": "ok",
+                                    "stderr": "",
+                                    "stdout": "",
+                                    "tool_id": "__APPLY_RULES__",
+                                    "tool_stderr": null,
+                                    "tool_stdout": null,
+                                    "update_time": "2024-11-21T17:25:14.720069",
+                                    "user_email": null
+                                }
+                            ],
+                            "model_class": "WorkflowInvocationStep",
+                            "order_index": 6,
+                            "output_collections": {
+                                "output": {
+                                    "id": "a1f748df26a39af6",
+                                    "src": "hdca"
+                                }
+                            },
+                            "outputs": {},
+                            "state": "scheduled",
+                            "subworkflow": null,
+                            "subworkflow_invocation_id": null,
+                            "update_time": "2024-11-21T17:25:14.781179",
+                            "workflow_step_id": "f3b9034cc3aac62f",
+                            "workflow_step_label": null,
+                            "workflow_step_uuid": "a951dda7-ee1f-4a01-bec5-0a2a7119de47"
+                        },
+                        "7. Unnamed step": {
+                            "action": null,
+                            "id": "2c07a19855f9b6f2",
+                            "implicit_collection_jobs_id": null,
+                            "job_id": null,
+                            "jobs": [
+                                {
+                                    "command_line": "printf \"Concatenating files:\\n\" && mkdir concatenated && printf \"IBSD01_test.fastq- forward and reverse...\" && cat /data/dnb10/galaxy_db/files/4/9/9/dataset_4992bbff-70e2-4e88-b4c4-f4346dbbf201.dat >> concatenated/forward.listed.fastqsanger.listed && cat /data/dnb10/galaxy_db/files/6/2/b/dataset_62bffce0-45fe-46c4-ae98-906277198e45.dat >> concatenated/reverse.listed.fastqsanger.listed && printf \"Done\\n\" && printf \"IBSD02_test.fastq- forward and reverse...\" && cat /data/dnb10/galaxy_db/files/c/f/7/dataset_cf760f35-07bf-4d60-9b76-add9ebf9adb7.dat >> concatenated/forward.listed.fastqsanger.listed && cat /data/dnb10/galaxy_db/files/7/3/b/dataset_73b9e973-c378-4c0d-8c2b-ecc2daad01e3.dat >> concatenated/reverse.listed.fastqsanger.listed && printf \"Done\\n\" && printf \"IBSD03_test.fastq- forward and reverse...\" && cat /data/dnb10/galaxy_db/files/3/a/7/dataset_3a71c0bf-b696-442b-b02e-435dca88275f.dat >> concatenated/forward.listed.fastqsanger.listed && cat /data/dnb10/galaxy_db/files/d/4/2/dataset_d42e8ac9-d0a8-47d3-ae4a-e386581bebbe.dat >> concatenated/reverse.listed.fastqsanger.listed && printf \"Done\\n\" && sleep 1",
+                                    "command_version": null,
+                                    "copied_from_job_id": null,
+                                    "create_time": "2024-11-21T17:25:15.012559",
+                                    "dependencies": [],
+                                    "exit_code": 0,
+                                    "external_id": null,
+                                    "galaxy_version": "24.1",
+                                    "handler": null,
+                                    "history_id": "1d9d5e636bb3ff26",
+                                    "id": "11ac94870d0bb33ab47313a7f93a8c55",
+                                    "inputs": {
+                                        "global_condition|inputs1": {
+                                            "id": "4838ba20a6d8676522d22a06eb4695a7",
+                                            "src": "hda",
+                                            "uuid": "4992bbff-70e2-4e88-b4c4-f4346dbbf201"
+                                        },
+                                        "global_condition|inputs2": {
+                                            "id": "4838ba20a6d86765d677f779c7b1aaf8",
+                                            "src": "hda",
+                                            "uuid": "62bffce0-45fe-46c4-ae98-906277198e45"
+                                        },
+                                        "global_condition|inputs3": {
+                                            "id": "4838ba20a6d867655ad6afd740544d5c",
+                                            "src": "hda",
+                                            "uuid": "cf760f35-07bf-4d60-9b76-add9ebf9adb7"
+                                        },
+                                        "global_condition|inputs4": {
+                                            "id": "4838ba20a6d867651ba32ef5b33239ef",
+                                            "src": "hda",
+                                            "uuid": "73b9e973-c378-4c0d-8c2b-ecc2daad01e3"
+                                        },
+                                        "global_condition|inputs5": {
+                                            "id": "4838ba20a6d86765208edcfced84634f",
+                                            "src": "hda",
+                                            "uuid": "3a71c0bf-b696-442b-b02e-435dca88275f"
+                                        },
+                                        "global_condition|inputs6": {
+                                            "id": "4838ba20a6d86765bd36040b0eab65ec",
+                                            "src": "hda",
+                                            "uuid": "d42e8ac9-d0a8-47d3-ae4a-e386581bebbe"
+                                        }
+                                    },
+                                    "job_messages": [],
+                                    "job_metrics": null,
+                                    "job_runner_name": null,
+                                    "job_stderr": "",
+                                    "job_stdout": "",
+                                    "model_class": "Job",
+                                    "output_collections": {
+                                        "paired_output": {
+                                            "id": "ef7f2d65ff604ff6",
+                                            "src": "hdca"
+                                        }
+                                    },
+                                    "outputs": {
+                                        "__new_primary_file_paired_output|forward__": {
+                                            "id": "4838ba20a6d8676525d0ca408d48f3f5",
+                                            "src": "hda",
+                                            "uuid": "96f7ef0a-9370-4de9-bdbf-1db97d427198"
+                                        },
+                                        "__new_primary_file_paired_output|reverse__": {
+                                            "id": "4838ba20a6d867653e089dac14027ba5",
+                                            "src": "hda",
+                                            "uuid": "3970b7b1-f14b-4874-ba7a-75088add09cc"
+                                        }
+                                    },
+                                    "params": {
+                                        "__input_ext": "\"fastqsanger\"",
+                                        "__workflow_invocation_uuid__": "\"7edfda5aa82d11efadb6001e67d2ec02\"",
+                                        "chromInfo": "\"/opt/galaxy/tool-data/shared/ucsc/chrom/?.len\"",
+                                        "dataset_names": "false",
+                                        "dbkey": "\"?\"",
+                                        "global_condition": "{\"__current_case__\": 1, \"input_type\": \"paired_collection\", \"inputs\": {\"values\": [{\"id\": 134762627, \"src\": \"dce\"}]}, \"paired_cat_type\": \"by_strand\"}",
+                                        "headers": "\"0\""
+                                    },
+                                    "state": "ok",
+                                    "stderr": "",
+                                    "stdout": "Concatenating files:\nIBSD01_test.fastq- forward and reverse...Done\nIBSD02_test.fastq- forward and reverse...Done\nIBSD03_test.fastq- forward and reverse...Done\n",
+                                    "tool_id": "toolshed.g2.bx.psu.edu/repos/artbio/concatenate_multiple_datasets/cat_multi_datasets/1.4.3",
+                                    "tool_stderr": "",
+                                    "tool_stdout": "Concatenating files:\nIBSD01_test.fastq- forward and reverse...Done\nIBSD02_test.fastq- forward and reverse...Done\nIBSD03_test.fastq- forward and reverse...Done\n",
+                                    "update_time": "2024-11-21T17:26:14.230322",
+                                    "user_email": null
+                                },
+                                {
+                                    "command_line": "printf \"Concatenating files:\\n\" && mkdir concatenated && printf \"IBSD04_test.fastq- forward and reverse...\" && cat /data/dnb10/galaxy_db/files/b/5/6/dataset_b562a190-2ed3-467d-8b2f-d62d443672c0.dat >> concatenated/forward.listed.fastqsanger.listed && cat /data/dnb10/galaxy_db/files/e/f/9/dataset_ef9fb635-8056-413c-b270-1a8c73b6b257.dat >> concatenated/reverse.listed.fastqsanger.listed && printf \"Done\\n\" && printf \"IBSD05_test.fastq- forward and reverse...\" && cat /data/dnb10/galaxy_db/files/e/d/c/dataset_edc9af54-22bb-4985-aceb-5045f74502e5.dat >> concatenated/forward.listed.fastqsanger.listed && cat /data/dnb10/galaxy_db/files/b/3/7/dataset_b37fe5f6-eca9-4258-9367-604f065df906.dat >> concatenated/reverse.listed.fastqsanger.listed && printf \"Done\\n\" && printf \"IBSD06_test.fastq- forward and reverse...\" && cat /data/dnb10/galaxy_db/files/6/5/6/dataset_656a1370-a2b3-429e-b5bd-79dcf08d2019.dat >> concatenated/forward.listed.fastqsanger.listed && cat /data/dnb10/galaxy_db/files/1/0/b/dataset_10b2dc85-01a6-46e6-9911-aa241bdead77.dat >> concatenated/reverse.listed.fastqsanger.listed && printf \"Done\\n\" && printf \"IBSD07_test.fastq- forward and reverse...\" && cat /data/dnb10/galaxy_db/files/2/5/3/dataset_253ca819-c7bb-4e27-bce3-29f2a3bf402d.dat >> concatenated/forward.listed.fastqsanger.listed && cat /data/dnb10/galaxy_db/files/a/a/d/dataset_aad93bf5-816c-42e5-9e11-57c4d506fbc3.dat >> concatenated/reverse.listed.fastqsanger.listed && printf \"Done\\n\" && sleep 1",
+                                    "command_version": null,
+                                    "copied_from_job_id": null,
+                                    "create_time": "2024-11-21T17:25:15.012562",
+                                    "dependencies": [],
+                                    "exit_code": 0,
+                                    "external_id": null,
+                                    "galaxy_version": "24.1",
+                                    "handler": null,
+                                    "history_id": "1d9d5e636bb3ff26",
+                                    "id": "11ac94870d0bb33a16ff56b1d59c319e",
+                                    "inputs": {
+                                        "global_condition|inputs1": {
+                                            "id": "4838ba20a6d86765dec004a6b3911f1c",
+                                            "src": "hda",
+                                            "uuid": "b562a190-2ed3-467d-8b2f-d62d443672c0"
+                                        },
+                                        "global_condition|inputs2": {
+                                            "id": "4838ba20a6d86765e902e13729f0fe2d",
+                                            "src": "hda",
+                                            "uuid": "ef9fb635-8056-413c-b270-1a8c73b6b257"
+                                        },
+                                        "global_condition|inputs3": {
+                                            "id": "4838ba20a6d867658c8e8b7e85ba4f45",
+                                            "src": "hda",
+                                            "uuid": "edc9af54-22bb-4985-aceb-5045f74502e5"
+                                        },
+                                        "global_condition|inputs4": {
+                                            "id": "4838ba20a6d86765d8eadd560554144c",
+                                            "src": "hda",
+                                            "uuid": "b37fe5f6-eca9-4258-9367-604f065df906"
+                                        },
+                                        "global_condition|inputs5": {
+                                            "id": "4838ba20a6d867652dc952b4b6a03dc7",
+                                            "src": "hda",
+                                            "uuid": "656a1370-a2b3-429e-b5bd-79dcf08d2019"
+                                        },
+                                        "global_condition|inputs6": {
+                                            "id": "4838ba20a6d86765f9516f7abd5b73f9",
+                                            "src": "hda",
+                                            "uuid": "10b2dc85-01a6-46e6-9911-aa241bdead77"
+                                        },
+                                        "global_condition|inputs7": {
+                                            "id": "4838ba20a6d867656ab2a84d4cbce7ba",
+                                            "src": "hda",
+                                            "uuid": "253ca819-c7bb-4e27-bce3-29f2a3bf402d"
+                                        },
+                                        "global_condition|inputs8": {
+                                            "id": "4838ba20a6d867653c7476be008bca0e",
+                                            "src": "hda",
+                                            "uuid": "aad93bf5-816c-42e5-9e11-57c4d506fbc3"
+                                        }
+                                    },
+                                    "job_messages": [],
+                                    "job_metrics": null,
+                                    "job_runner_name": null,
+                                    "job_stderr": "",
+                                    "job_stdout": "",
+                                    "model_class": "Job",
+                                    "output_collections": {
+                                        "paired_output": {
+                                            "id": "ef7f2d65ff604ff6",
+                                            "src": "hdca"
+                                        }
+                                    },
+                                    "outputs": {
+                                        "__new_primary_file_paired_output|forward__": {
+                                            "id": "4838ba20a6d86765635895cc3ad3b5e1",
+                                            "src": "hda",
+                                            "uuid": "1f1f1f9e-f778-44f7-9a96-225db9aa3f1e"
+                                        },
+                                        "__new_primary_file_paired_output|reverse__": {
+                                            "id": "4838ba20a6d86765c650a2e86d677597",
+                                            "src": "hda",
+                                            "uuid": "499eda0e-9143-49a2-83c7-2e429e694611"
+                                        }
+                                    },
+                                    "params": {
+                                        "__input_ext": "\"fastqsanger\"",
+                                        "__workflow_invocation_uuid__": "\"7edfda5aa82d11efadb6001e67d2ec02\"",
+                                        "chromInfo": "\"/opt/galaxy/tool-data/shared/ucsc/chrom/?.len\"",
+                                        "dataset_names": "false",
+                                        "dbkey": "\"?\"",
+                                        "global_condition": "{\"__current_case__\": 1, \"input_type\": \"paired_collection\", \"inputs\": {\"values\": [{\"id\": 134762637, \"src\": \"dce\"}]}, \"paired_cat_type\": \"by_strand\"}",
+                                        "headers": "\"0\""
+                                    },
+                                    "state": "ok",
+                                    "stderr": "",
+                                    "stdout": "Concatenating files:\nIBSD04_test.fastq- forward and reverse...Done\nIBSD05_test.fastq- forward and reverse...Done\nIBSD06_test.fastq- forward and reverse...Done\nIBSD07_test.fastq- forward and reverse...Done\n",
+                                    "tool_id": "toolshed.g2.bx.psu.edu/repos/artbio/concatenate_multiple_datasets/cat_multi_datasets/1.4.3",
+                                    "tool_stderr": "",
+                                    "tool_stdout": "Concatenating files:\nIBSD04_test.fastq- forward and reverse...Done\nIBSD05_test.fastq- forward and reverse...Done\nIBSD06_test.fastq- forward and reverse...Done\nIBSD07_test.fastq- forward and reverse...Done\n",
+                                    "update_time": "2024-11-21T17:26:09.451585",
+                                    "user_email": null
+                                },
+                                {
+                                    "command_line": "printf \"Concatenating files:\\n\" && mkdir concatenated && printf \"IBSD08_test.fastq- forward and reverse...\" && cat /data/dnb10/galaxy_db/files/0/c/6/dataset_0c6d8138-d015-44d2-83f0-bccc2f254cf0.dat >> concatenated/forward.listed.fastqsanger.listed && cat /data/dnb10/galaxy_db/files/2/b/9/dataset_2b9afb53-11cc-4505-b792-7a5b19f7a9f9.dat >> concatenated/reverse.listed.fastqsanger.listed && printf \"Done\\n\" && printf \"IBSD09_test.fastq- forward and reverse...\" && cat /data/dnb10/galaxy_db/files/1/5/4/dataset_1544e490-2257-4c43-a90d-2927737e18df.dat >> concatenated/forward.listed.fastqsanger.listed && cat /data/dnb10/galaxy_db/files/7/4/e/dataset_74e942aa-d8ed-4912-94bd-c0a886b5ecba.dat >> concatenated/reverse.listed.fastqsanger.listed && printf \"Done\\n\" && sleep 1",
+                                    "command_version": null,
+                                    "copied_from_job_id": null,
+                                    "create_time": "2024-11-21T17:25:15.012564",
+                                    "dependencies": [],
+                                    "exit_code": 0,
+                                    "external_id": null,
+                                    "galaxy_version": "24.1",
+                                    "handler": null,
+                                    "history_id": "1d9d5e636bb3ff26",
+                                    "id": "11ac94870d0bb33abb8a29562ddb7999",
+                                    "inputs": {
+                                        "global_condition|inputs1": {
+                                            "id": "4838ba20a6d86765d4694e6cf4e3c9c1",
+                                            "src": "hda",
+                                            "uuid": "0c6d8138-d015-44d2-83f0-bccc2f254cf0"
+                                        },
+                                        "global_condition|inputs2": {
+                                            "id": "4838ba20a6d8676574179c217b2c6fcf",
+                                            "src": "hda",
+                                            "uuid": "2b9afb53-11cc-4505-b792-7a5b19f7a9f9"
+                                        },
+                                        "global_condition|inputs3": {
+                                            "id": "4838ba20a6d86765a0097b8e8b0db3ea",
+                                            "src": "hda",
+                                            "uuid": "1544e490-2257-4c43-a90d-2927737e18df"
+                                        },
+                                        "global_condition|inputs4": {
+                                            "id": "4838ba20a6d8676558088b290a074b22",
+                                            "src": "hda",
+                                            "uuid": "74e942aa-d8ed-4912-94bd-c0a886b5ecba"
+                                        }
+                                    },
+                                    "job_messages": [],
+                                    "job_metrics": null,
+                                    "job_runner_name": null,
+                                    "job_stderr": "",
+                                    "job_stdout": "",
+                                    "model_class": "Job",
+                                    "output_collections": {
+                                        "paired_output": {
+                                            "id": "ef7f2d65ff604ff6",
+                                            "src": "hdca"
+                                        }
+                                    },
+                                    "outputs": {
+                                        "__new_primary_file_paired_output|forward__": {
+                                            "id": "4838ba20a6d86765a98e6203effa3e71",
+                                            "src": "hda",
+                                            "uuid": "fe2f9e8e-62ff-4c20-bd2b-51705b61fe4c"
+                                        },
+                                        "__new_primary_file_paired_output|reverse__": {
+                                            "id": "4838ba20a6d867651bd9fcca066911e3",
+                                            "src": "hda",
+                                            "uuid": "65ba7ab7-824c-4a45-83d8-7b5c78d47598"
+                                        }
+                                    },
+                                    "params": {
+                                        "__input_ext": "\"fastqsanger\"",
+                                        "__workflow_invocation_uuid__": "\"7edfda5aa82d11efadb6001e67d2ec02\"",
+                                        "chromInfo": "\"/opt/galaxy/tool-data/shared/ucsc/chrom/?.len\"",
+                                        "dataset_names": "false",
+                                        "dbkey": "\"?\"",
+                                        "global_condition": "{\"__current_case__\": 1, \"input_type\": \"paired_collection\", \"inputs\": {\"values\": [{\"id\": 134762650, \"src\": \"dce\"}]}, \"paired_cat_type\": \"by_strand\"}",
+                                        "headers": "\"0\""
+                                    },
+                                    "state": "ok",
+                                    "stderr": "",
+                                    "stdout": "Concatenating files:\nIBSD08_test.fastq- forward and reverse...Done\nIBSD09_test.fastq- forward and reverse...Done\n",
+                                    "tool_id": "toolshed.g2.bx.psu.edu/repos/artbio/concatenate_multiple_datasets/cat_multi_datasets/1.4.3",
+                                    "tool_stderr": "",
+                                    "tool_stdout": "Concatenating files:\nIBSD08_test.fastq- forward and reverse...Done\nIBSD09_test.fastq- forward and reverse...Done\n",
+                                    "update_time": "2024-11-21T17:26:07.073198",
+                                    "user_email": null
+                                }
+                            ],
+                            "model_class": "WorkflowInvocationStep",
+                            "order_index": 7,
+                            "output_collections": {
+                                "paired_output": {
+                                    "id": "ef7f2d65ff604ff6",
+                                    "src": "hdca"
+                                }
+                            },
+                            "outputs": {},
+                            "state": "scheduled",
+                            "subworkflow": null,
+                            "subworkflow_invocation_id": null,
+                            "update_time": "2024-11-21T17:25:15.107443",
+                            "workflow_step_id": "283f4433b12757a7",
+                            "workflow_step_label": null,
+                            "workflow_step_uuid": "4cbea8fd-74f1-4242-a758-3f1e9a987cb5"
+                        }
+                    }
+                },
+                "problem_log": "No log for this engine type.",
+                "start_datetime": "2024-11-21T18:02:50.347898",
+                "status": "success"
+            },
+            "doc": "Test outline for preprocessing-for-group-assignment-co-assembly",
+            "has_data": true,
+            "id": "preprocessing-for-group-assignment-co-assembly.ga_0",
+            "test_type": "galaxy_workflow"
+        }
+    ],
+    "version": "0.1"
+}

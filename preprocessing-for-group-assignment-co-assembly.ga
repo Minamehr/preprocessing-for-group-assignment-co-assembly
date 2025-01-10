@@ -1,0 +1,328 @@
+{
+    "a_galaxy_workflow": "true",
+    "annotation": "This workflow organizes pre-processed metagenomic data into groups based on user-defined criteria (e.g., metadata categories). The grouped outputs are optimized for downstream co-assembly.",
+    "comments": [],
+    "creator": [
+        {
+            "class": "Person",
+            "identifier": "",
+            "isNew": true,
+            "name": ""
+        },
+        {
+            "class": "Person",
+            "identifier": "",
+            "isNew": true,
+            "name": ""
+        },
+        {
+            "class": "Person",
+            "identifier": "https://orcid.org/0000-0002-3602-7884",
+            "name": "Mina Hojat Ansari"
+        },
+        {
+            "class": "Person",
+            "identifier": "https://orcid.org/0000-0003-2982-388X",
+            "name": "Paul Zierep"
+        }
+    ],
+    "format-version": "0.1",
+    "license": "MIT",
+    "release": "0.1",
+    "name": "preprocessing for group assignment co-assembly",
+    "report": {
+        "markdown": "\n# Workflow Execution Report\n\n## Workflow Inputs\n```galaxy\ninvocation_inputs()\n```\n\n## Workflow Outputs\n```galaxy\ninvocation_outputs()\n```\n\n## Workflow\n```galaxy\nworkflow_display()\n```\n"
+    },
+    "steps": {
+        "0": {
+            "annotation": "Paired-end reads that have been trimmed and processed.",
+            "content_id": null,
+            "errors": null,
+            "id": 0,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "Paired-end reads that have been trimmed and processed.",
+                    "name": "Trimmed paired reads"
+                }
+            ],
+            "label": "Trimmed paired reads",
+            "name": "Input dataset collection",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 246.30917256717157
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null, \"collection_type\": \"list:paired\"}",
+            "tool_version": null,
+            "type": "data_collection_input",
+            "uuid": "fa9d56af-8107-4bed-a613-d0e455b90718",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "1": {
+            "annotation": "a two column tab-delimited file including the sample_id and the group_id ",
+            "content_id": null,
+            "errors": null,
+            "id": 1,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "a two column tab-delimited file including the sample_id and the group_id ",
+                    "name": "metadata"
+                }
+            ],
+            "label": "metadata",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 201.4195556640625,
+                "top": 149.30917256717157
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "ab171f10-2b60-4268-b88a-c61d5c2ba278",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "2": {
+            "annotation": "",
+            "content_id": "__UNZIP_COLLECTION__",
+            "errors": null,
+            "id": 2,
+            "input_connections": {
+                "input": {
+                    "id": 0,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Unzip collection",
+            "outputs": [
+                {
+                    "name": "forward",
+                    "type": "input"
+                },
+                {
+                    "name": "reverse",
+                    "type": "input"
+                }
+            ],
+            "position": {
+                "left": 323.953125,
+                "top": 553.03125
+            },
+            "post_job_actions": {},
+            "tool_id": "__UNZIP_COLLECTION__",
+            "tool_state": "{\"input\": {\"__class__\": \"ConnectedValue\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.0.0",
+            "type": "tool",
+            "uuid": "b112a4f4-ae2d-4fb2-aaf0-3d5839e70fc7",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "3": {
+            "annotation": "",
+            "content_id": "__TAG_FROM_FILE__",
+            "errors": null,
+            "id": 3,
+            "input_connections": {
+                "input": {
+                    "id": 2,
+                    "output_name": "reverse"
+                },
+                "tags": {
+                    "id": 1,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Tag elements",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "input"
+                }
+            ],
+            "position": {
+                "left": 558.7158255830651,
+                "top": 0
+            },
+            "post_job_actions": {},
+            "tool_id": "__TAG_FROM_FILE__",
+            "tool_state": "{\"how\": \"add\", \"input\": {\"__class__\": \"ConnectedValue\"}, \"tags\": {\"__class__\": \"ConnectedValue\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.0.0",
+            "type": "tool",
+            "uuid": "bb02f573-9d56-4b18-a093-58b91ede674f",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "4": {
+            "annotation": "",
+            "content_id": "__TAG_FROM_FILE__",
+            "errors": null,
+            "id": 4,
+            "input_connections": {
+                "input": {
+                    "id": 2,
+                    "output_name": "forward"
+                },
+                "tags": {
+                    "id": 1,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Tag elements",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "input"
+                }
+            ],
+            "position": {
+                "left": 678.0464729166356,
+                "top": 445.0110396187439
+            },
+            "post_job_actions": {},
+            "tool_id": "__TAG_FROM_FILE__",
+            "tool_state": "{\"how\": \"add\", \"input\": {\"__class__\": \"ConnectedValue\"}, \"tags\": {\"__class__\": \"ConnectedValue\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.0.0",
+            "type": "tool",
+            "uuid": "f93c1372-0146-4b38-b495-fb82b77ffbdf",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "5": {
+            "annotation": "",
+            "content_id": "__ZIP_COLLECTION__",
+            "errors": null,
+            "id": 5,
+            "input_connections": {
+                "input_forward": {
+                    "id": 4,
+                    "output_name": "output"
+                },
+                "input_reverse": {
+                    "id": 3,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Zip collections",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "input"
+                }
+            ],
+            "position": {
+                "left": 909.8146986524602,
+                "top": 90.3126403678784
+            },
+            "post_job_actions": {},
+            "tool_id": "__ZIP_COLLECTION__",
+            "tool_state": "{\"input_forward\": {\"__class__\": \"ConnectedValue\"}, \"input_reverse\": {\"__class__\": \"ConnectedValue\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.0.0",
+            "type": "tool",
+            "uuid": "8b70fe67-48e7-4321-b0f1-d6c099b09719",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "6": {
+            "annotation": "",
+            "content_id": "__APPLY_RULES__",
+            "errors": null,
+            "id": 6,
+            "input_connections": {
+                "input": {
+                    "id": 5,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Apply rules",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "input"
+                }
+            ],
+            "position": {
+                "left": 1191.796875,
+                "top": 184.875
+            },
+            "post_job_actions": {},
+            "tool_id": "__APPLY_RULES__",
+            "tool_state": "{\"input\": {\"__class__\": \"ConnectedValue\"}, \"rules\": {\"mapping\": [{\"columns\": [2, 0], \"editing\": false, \"type\": \"list_identifiers\"}, {\"columns\": [1], \"type\": \"paired_identifier\"}], \"rules\": [{\"error\": null, \"type\": \"add_column_metadata\", \"value\": \"identifier0\", \"warn\": null}, {\"error\": null, \"type\": \"add_column_metadata\", \"value\": \"identifier1\", \"warn\": null}, {\"error\": null, \"type\": \"add_column_metadata\", \"value\": \"tags\", \"warn\": null}]}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.1.0",
+            "type": "tool",
+            "uuid": "a951dda7-ee1f-4a01-bec5-0a2a7119de47",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "7": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/artbio/concatenate_multiple_datasets/cat_multi_datasets/1.4.3",
+            "errors": null,
+            "id": 7,
+            "input_connections": {
+                "global_condition|inputs": {
+                    "id": 6,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [
+                {
+                    "description": "runtime parameter for tool Concatenate multiple datasets",
+                    "name": "global_condition"
+                }
+            ],
+            "label": null,
+            "name": "Concatenate multiple datasets",
+            "outputs": [
+                {
+                    "name": "paired_output",
+                    "type": "input"
+                }
+            ],
+            "position": {
+                "left": 1252.0297602450312,
+                "top": 443.34883030424345
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/artbio/concatenate_multiple_datasets/cat_multi_datasets/1.4.3",
+            "tool_shed_repository": {
+                "changeset_revision": "5b1b635232ed",
+                "name": "concatenate_multiple_datasets",
+                "owner": "artbio",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"dataset_names\": false, \"global_condition\": {\"input_type\": \"paired_collection\", \"__current_case__\": 1, \"inputs\": {\"__class__\": \"ConnectedValue\"}, \"paired_cat_type\": \"by_strand\"}, \"headers\": \"0\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.4.3",
+            "type": "tool",
+            "uuid": "4cbea8fd-74f1-4242-a758-3f1e9a987cb5",
+            "when": null,
+            "workflow_outputs": [
+                {
+                    "label": "paired_output",
+                    "output_name": "paired_output",
+                    "uuid": "70c11440-edc9-41ba-9209-f84d1ca7931b"
+                }
+            ]
+        }
+    },
+    "tags": [
+        "name:FAIRyMAGs"
+    ],
+    "uuid": "0c3c6a40-8d0b-4631-9b30-3b736ce0a166",
+    "version": 25
+}
