@@ -15,8 +15,8 @@ This workflow preprocesses metagenomic data by organizing and concatenating pair
 ## **Outputs**
 - **Grouped Paired Reads**:
   - Concatenated paired-end datasets organized by group.
-  - Ready for co-assembly per group.
-
+  - Ready for co-assembly per group .
+  
 ---
 
 ## **Workflow Steps**
